@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1798E8B2294EA53C005C3329 /* MIDIPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1798E8B1294EA53C005C3329 /* MIDIPlayerViewModel.swift */; };
+		1798E8B82955729C005C3329 /* Notification.Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1798E8B72955729C005C3329 /* Notification.Name.swift */; };
+		1798E8BA29558D23005C3329 /* MIDI3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1798E8B929558D23005C3329 /* MIDI3View.swift */; };
+		17A3849D29650348002D6D71 /* MIDIRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A3849C29650348002D6D71 /* MIDIRootView.swift */; };
+		17A3849F29652C47002D6D71 /* MIDIRulerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A3849E29652C47002D6D71 /* MIDIRulerView.swift */; };
+		17A384A129653090002D6D71 /* MIDIPianoRollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A384A02965308F002D6D71 /* MIDIPianoRollView.swift */; };
+		17A384A32967BA4C002D6D71 /* DrumsMIDIMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A384A22967BA4C002D6D71 /* DrumsMIDIMap.swift */; };
+		17E0D4B7294AD8FE0062A189 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E0D4B6294AD8FE0062A189 /* AppDelegate.swift */; };
+		17E0D4B9294AD8FE0062A189 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E0D4B8294AD8FE0062A189 /* SceneDelegate.swift */; };
+		17E0D4BB294AD8FE0062A189 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E0D4BA294AD8FE0062A189 /* ViewController.swift */; };
+		17E0D4BE294AD8FE0062A189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17E0D4BC294AD8FE0062A189 /* Main.storyboard */; };
+		17E0D4C0294AD8FF0062A189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E0D4BF294AD8FF0062A189 /* Assets.xcassets */; };
+		17E0D4C3294AD8FF0062A189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17E0D4C1294AD8FF0062A189 /* LaunchScreen.storyboard */; };
+		17E0D4CD294ADE6D0062A189 /* MIDIPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E0D4CC294ADE6D0062A189 /* MIDIPlayer.swift */; };
+		17E0D4CF294AE76E0062A189 /* GeneralUser.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = 17E0D4CE294AE56C0062A189 /* GeneralUser.sf2 */; };
+		17E0D4D1294AE85E0062A189 /* hihat_open.mid in Resources */ = {isa = PBXBuildFile; fileRef = 17E0D4D0294AE85E0062A189 /* hihat_open.mid */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1798E8B1294EA53C005C3329 /* MIDIPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIPlayerViewModel.swift; sourceTree = "<group>"; };
+		1798E8B72955729C005C3329 /* Notification.Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.Name.swift; sourceTree = "<group>"; };
+		1798E8B929558D23005C3329 /* MIDI3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDI3View.swift; sourceTree = "<group>"; };
+		17A3849C29650348002D6D71 /* MIDIRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIRootView.swift; sourceTree = "<group>"; };
+		17A3849E29652C47002D6D71 /* MIDIRulerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIRulerView.swift; sourceTree = "<group>"; };
+		17A384A02965308F002D6D71 /* MIDIPianoRollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIPianoRollView.swift; sourceTree = "<group>"; };
+		17A384A22967BA4C002D6D71 /* DrumsMIDIMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumsMIDIMap.swift; sourceTree = "<group>"; };
+		17E0D4B3294AD8FE0062A189 /* MIDIPlayerIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MIDIPlayerIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E0D4B6294AD8FE0062A189 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17E0D4B8294AD8FE0062A189 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		17E0D4BA294AD8FE0062A189 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17E0D4BD294AD8FE0062A189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17E0D4BF294AD8FF0062A189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17E0D4C2294AD8FF0062A189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17E0D4C4294AD8FF0062A189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17E0D4CC294ADE6D0062A189 /* MIDIPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIDIPlayer.swift; sourceTree = "<group>"; };
+		17E0D4CE294AE56C0062A189 /* GeneralUser.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = GeneralUser.sf2; sourceTree = "<group>"; };
+		17E0D4D0294AE85E0062A189 /* hihat_open.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = hihat_open.mid; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17E0D4B0294AD8FE0062A189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17E0D4AA294AD8FE0062A189 = {
+			isa = PBXGroup;
+			children = (
+				17E0D4B5294AD8FE0062A189 /* MIDIPlayerIOS */,
+				17E0D4B4294AD8FE0062A189 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17E0D4B4294AD8FE0062A189 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17E0D4B3294AD8FE0062A189 /* MIDIPlayerIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17E0D4B5294AD8FE0062A189 /* MIDIPlayerIOS */ = {
+			isa = PBXGroup;
+			children = (
+				17E0D4B6294AD8FE0062A189 /* AppDelegate.swift */,
+				17E0D4B8294AD8FE0062A189 /* SceneDelegate.swift */,
+				17E0D4BA294AD8FE0062A189 /* ViewController.swift */,
+				1798E8B1294EA53C005C3329 /* MIDIPlayerViewModel.swift */,
+				17A3849C29650348002D6D71 /* MIDIRootView.swift */,
+				1798E8B929558D23005C3329 /* MIDI3View.swift */,
+				17A384A02965308F002D6D71 /* MIDIPianoRollView.swift */,
+				17A3849E29652C47002D6D71 /* MIDIRulerView.swift */,
+				17A384A22967BA4C002D6D71 /* DrumsMIDIMap.swift */,
+				17E0D4CC294ADE6D0062A189 /* MIDIPlayer.swift */,
+				1798E8B72955729C005C3329 /* Notification.Name.swift */,
+				17E0D4BC294AD8FE0062A189 /* Main.storyboard */,
+				17E0D4CE294AE56C0062A189 /* GeneralUser.sf2 */,
+				17E0D4D0294AE85E0062A189 /* hihat_open.mid */,
+				17E0D4BF294AD8FF0062A189 /* Assets.xcassets */,
+				17E0D4C1294AD8FF0062A189 /* LaunchScreen.storyboard */,
+				17E0D4C4294AD8FF0062A189 /* Info.plist */,
+			);
+			path = MIDIPlayerIOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17E0D4B2294AD8FE0062A189 /* MIDIPlayerIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E0D4C7294AD8FF0062A189 /* Build configuration list for PBXNativeTarget "MIDIPlayerIOS" */;
+			buildPhases = (
+				17E0D4AF294AD8FE0062A189 /* Sources */,
+				17E0D4B0294AD8FE0062A189 /* Frameworks */,
+				17E0D4B1294AD8FE0062A189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MIDIPlayerIOS;
+			productName = MIDIPlayerIOS;
+			productReference = 17E0D4B3294AD8FE0062A189 /* MIDIPlayerIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17E0D4AB294AD8FE0062A189 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					17E0D4B2294AD8FE0062A189 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 17E0D4AE294AD8FE0062A189 /* Build configuration list for PBXProject "MIDIPlayerIOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17E0D4AA294AD8FE0062A189;
+			productRefGroup = 17E0D4B4294AD8FE0062A189 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17E0D4B2294AD8FE0062A189 /* MIDIPlayerIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17E0D4B1294AD8FE0062A189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E0D4C3294AD8FF0062A189 /* LaunchScreen.storyboard in Resources */,
+				17E0D4CF294AE76E0062A189 /* GeneralUser.sf2 in Resources */,
+				17E0D4C0294AD8FF0062A189 /* Assets.xcassets in Resources */,
+				17E0D4BE294AD8FE0062A189 /* Main.storyboard in Resources */,
+				17E0D4D1294AE85E0062A189 /* hihat_open.mid in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17E0D4AF294AD8FE0062A189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E0D4BB294AD8FE0062A189 /* ViewController.swift in Sources */,
+				17E0D4CD294ADE6D0062A189 /* MIDIPlayer.swift in Sources */,
+				17A3849D29650348002D6D71 /* MIDIRootView.swift in Sources */,
+				17A384A32967BA4C002D6D71 /* DrumsMIDIMap.swift in Sources */,
+				1798E8B2294EA53C005C3329 /* MIDIPlayerViewModel.swift in Sources */,
+				17E0D4B7294AD8FE0062A189 /* AppDelegate.swift in Sources */,
+				17E0D4B9294AD8FE0062A189 /* SceneDelegate.swift in Sources */,
+				17A384A129653090002D6D71 /* MIDIPianoRollView.swift in Sources */,
+				1798E8B82955729C005C3329 /* Notification.Name.swift in Sources */,
+				17A3849F29652C47002D6D71 /* MIDIRulerView.swift in Sources */,
+				1798E8BA29558D23005C3329 /* MIDI3View.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17E0D4BC294AD8FE0062A189 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17E0D4BD294AD8FE0062A189 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17E0D4C1294AD8FF0062A189 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17E0D4C2294AD8FF0062A189 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17E0D4C5294AD8FF0062A189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17E0D4C6294AD8FF0062A189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17E0D4C8294AD8FF0062A189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FJ5BS2TAS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MIDIPlayerIOS/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hikaru.MIDIPlayerIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17E0D4C9294AD8FF0062A189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FJ5BS2TAS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MIDIPlayerIOS/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hikaru.MIDIPlayerIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17E0D4AE294AD8FE0062A189 /* Build configuration list for PBXProject "MIDIPlayerIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E0D4C5294AD8FF0062A189 /* Debug */,
+				17E0D4C6294AD8FF0062A189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17E0D4C7294AD8FF0062A189 /* Build configuration list for PBXNativeTarget "MIDIPlayerIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E0D4C8294AD8FF0062A189 /* Debug */,
+				17E0D4C9294AD8FF0062A189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17E0D4AB294AD8FE0062A189 /* Project object */;
+}
